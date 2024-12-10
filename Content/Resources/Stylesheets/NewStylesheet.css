@@ -1,0 +1,61 @@
+/*<meta />*/
+
+p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+h1
+{
+	font-family: Cousine;
+	font-weight: bold;
+}
+
+td
+{
+	background: #ffffff;
+}
+
+@media print
+{
+	h1
+	{
+		font-size: 20pt;
+	}
+
+	td
+	{
+		background: #ffffff;
+	}
+
+	td.testing
+	{
+		background: #ffffff;
+	}
+}
+
+td.testing
+{
+	background: #f08080;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	td
+	{
+		background: #32cd32;
+	}
+}
+
